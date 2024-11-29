@@ -277,7 +277,7 @@ local RayfieldLibrary = {
 			TextColor = Color3.fromRGB(60, 40, 50),
 		
 			-- Arka planları koyulaştırma
-			Background = Color3.fromRGB(30, 30, 30),  -- Koyu siyah arka plan
+			Background = Color3.fromRGB(31, 30, 30),  -- Koyu siyah arka plan
 			Topbar = Color3.fromRGB(50, 50, 50),  -- Koyu gri topbar
 			Shadow = Color3.fromRGB(20, 20, 20),  -- Daha koyu gölge rengi
 		
