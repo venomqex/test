@@ -27,38 +27,38 @@ local RayfieldLibrary = {
 		
 			-- Arka planlar ve saydamlık ekleyerek düzenlemeler
 			Background = Color3.fromRGB(25, 25, 25),  -- Normal arka plan
-			BackgroundTransparency = 0.2,  -- Saydamlık (0.0 = tamamen saydam, 1.0 = opak)
+			BackgroundTransparency = 0.4,  -- Saydamlık eklenmiş arka plan
 		
 			-- Parlak ve hafif parlama efekti için güncellenmiş renkler
 			Topbar = Color3.fromRGB(34, 34, 34),
-			TopbarGlow = Color3.fromRGB(34, 34, 34),  -- Parlama efekti için renk (isteğe bağlı)
+			TopbarTransparency = 0.4,  -- Saydamlık eklenmiş üst çubuk
+		
 			Shadow = Color3.fromRGB(20, 20, 20),
 		
 			NotificationBackground = Color3.fromRGB(20, 20, 20),
-			NotificationBackgroundTransparency = 0.3,  -- Saydamlık ekleme
+			NotificationBackgroundTransparency = 0.4,  -- Saydamlık eklenmiş bildirim arka planı
 			NotificationActionsBackground = Color3.fromRGB(230, 230, 230),
 		
-			-- Sekme arka planı ve seçilen sekme için saydamlık ve parlama
+			-- Sekme arka planı ve seçilen sekme için saydamlık
 			TabBackground = Color3.fromRGB(80, 80, 80),
-			TabBackgroundTransparency = 0.4,  -- Saydamlık
+			TabBackgroundTransparency = 0.4,  -- Saydamlık eklenmiş sekme arka planı
 			TabGlow = Color3.fromRGB(90, 90, 90),  -- Seçilen sekme için parlama
 			TabStroke = Color3.fromRGB(85, 85, 85),
 			TabBackgroundSelected = Color3.fromRGB(210, 210, 210),
 			TabTextColor = Color3.fromRGB(240, 240, 240),
 			SelectedTabTextColor = Color3.fromRGB(50, 50, 50),
 		
-			-- Elementler için düzenlemeler (saydamlık ve parlama efekti)
+			-- Elementler için düzenlemeler (saydamlık ekleme)
 			ElementBackground = Color3.fromRGB(35, 35, 35),
-			ElementBackgroundHover = Color3.fromRGB(40, 40, 40),
-			ElementBackgroundTransparency = 0.3,  -- Saydamlık
+			ElementBackgroundTransparency = 0.4,  -- Saydamlık eklenmiş element arka planı
 			ElementGlow = Color3.fromRGB(50, 50, 50),  -- Parlama efekti
 			SecondaryElementBackground = Color3.fromRGB(25, 25, 25),
 			ElementStroke = Color3.fromRGB(50, 50, 50),
 			SecondaryElementStroke = Color3.fromRGB(40, 40, 40),
 		
-			-- Slider için parlama ve saydamlık
+			-- Slider için saydamlık
 			SliderBackground = Color3.fromRGB(50, 138, 220),
-			SliderBackgroundTransparency = 0.2,  -- Saydamlık
+			SliderBackgroundTransparency = 0.4,  -- Saydamlık eklenmiş slider arka planı
 			SliderProgress = Color3.fromRGB(50, 138, 220),
 			SliderStroke = Color3.fromRGB(58, 163, 255),
 		
@@ -71,15 +71,20 @@ local RayfieldLibrary = {
 			ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
 			ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
 		
-			-- Dropdown için efektler
+			-- Dropdown için saydamlık
 			DropdownSelected = Color3.fromRGB(40, 40, 40),
 			DropdownUnselected = Color3.fromRGB(30, 30, 30),
 		
-			-- Input kutusu ve saydamlık efekti
+			-- Input kutusu için saydamlık efekti
 			InputBackground = Color3.fromRGB(30, 30, 30),
-			InputBackgroundTransparency = 0.4,  -- Saydamlık
+			InputBackgroundTransparency = 0.4,  -- Saydamlık eklenmiş input arka planı
 			InputStroke = Color3.fromRGB(65, 65, 65),
-			PlaceholderColor = Color3.fromRGB(178, 178, 178)
+			PlaceholderColor = Color3.fromRGB(178, 178, 178),
+		
+			-- Butonlar dışında her şeyde saydamlık efekti
+			ButtonBackground = Color3.fromRGB(50, 50, 50),  -- Butonların arka planı
+			ButtonStroke = Color3.fromRGB(85, 85, 85),
+			ButtonBackgroundTransparency = 1  -- Butonlar için saydamlık eklenmez (opak olur)
 		},		
 
 		Ocean = {
