@@ -24,9 +24,9 @@ local ChronicLibrary = {
 		Default = {
 			TextColor = Color3.fromRGB(240, 240, 240),
 
-			Background = Color3.fromRGB(25, 25, 25),
-			Topbar = Color3.fromRGB(34, 34, 34),
-			Shadow = Color3.fromRGB(20, 20, 20),
+			Background = Color3.fromRGB(222, 222, 222),
+			Topbar = Color3.fromRGB(222, 222, 22),
+			Shadow = Color3.fromRGB(222, 222, 222),
 
 			NotificationBackground = Color3.fromRGB(20, 20, 20),
 			NotificationActionsBackground = Color3.fromRGB(230, 230, 230),
