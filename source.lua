@@ -22,47 +22,31 @@ local ChronicLibrary = {
 	Flags = {},
 	Theme = {
 		Default = {
-			-- Metin rengi
 			TextColor = Color3.fromRGB(240, 240, 240),
-		
-			-- Arka planlar ve saydamlık ekleyerek düzenlemeler
-			Background = Color3.fromRGB(25, 25, 25),  -- Normal arka plan
-			BackgroundTransparency = 0.4,  -- Saydamlık eklenmiş arka plan
-		
-			-- Parlak ve hafif parlama efekti için güncellenmiş renkler
+
+			Background = Color3.fromRGB(25, 25, 25),
 			Topbar = Color3.fromRGB(34, 34, 34),
-			TopbarTransparency = 0.4,  -- Saydamlık eklenmiş üst çubuk
-		
 			Shadow = Color3.fromRGB(20, 20, 20),
-		
+
 			NotificationBackground = Color3.fromRGB(20, 20, 20),
-			NotificationBackgroundTransparency = 0.4,  -- Saydamlık eklenmiş bildirim arka planı
 			NotificationActionsBackground = Color3.fromRGB(230, 230, 230),
-		
-			-- Sekme arka planı ve seçilen sekme için saydamlık
+
 			TabBackground = Color3.fromRGB(80, 80, 80),
-			TabBackgroundTransparency = 0.4,  -- Saydamlık eklenmiş sekme arka planı
-			TabGlow = Color3.fromRGB(90, 90, 90),  -- Seçilen sekme için parlama
 			TabStroke = Color3.fromRGB(85, 85, 85),
 			TabBackgroundSelected = Color3.fromRGB(210, 210, 210),
 			TabTextColor = Color3.fromRGB(240, 240, 240),
 			SelectedTabTextColor = Color3.fromRGB(50, 50, 50),
-		
-			-- Elementler için düzenlemeler (saydamlık ekleme)
+
 			ElementBackground = Color3.fromRGB(35, 35, 35),
-			ElementBackgroundTransparency = 0.4,  -- Saydamlık eklenmiş element arka planı
-			ElementGlow = Color3.fromRGB(50, 50, 50),  -- Parlama efekti
+			ElementBackgroundHover = Color3.fromRGB(40, 40, 40),
 			SecondaryElementBackground = Color3.fromRGB(25, 25, 25),
 			ElementStroke = Color3.fromRGB(50, 50, 50),
 			SecondaryElementStroke = Color3.fromRGB(40, 40, 40),
-		
-			-- Slider için saydamlık
+
 			SliderBackground = Color3.fromRGB(50, 138, 220),
-			SliderBackgroundTransparency = 0.4,  -- Saydamlık eklenmiş slider arka planı
 			SliderProgress = Color3.fromRGB(50, 138, 220),
 			SliderStroke = Color3.fromRGB(58, 163, 255),
-		
-			-- Toggle için saydamlık ve parlama
+
 			ToggleBackground = Color3.fromRGB(30, 30, 30),
 			ToggleEnabled = Color3.fromRGB(0, 146, 214),
 			ToggleDisabled = Color3.fromRGB(100, 100, 100),
@@ -70,22 +54,14 @@ local ChronicLibrary = {
 			ToggleDisabledStroke = Color3.fromRGB(125, 125, 125),
 			ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
 			ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
-		
-			-- Dropdown için saydamlık
+
 			DropdownSelected = Color3.fromRGB(40, 40, 40),
 			DropdownUnselected = Color3.fromRGB(30, 30, 30),
-		
-			-- Input kutusu için saydamlık efekti
+
 			InputBackground = Color3.fromRGB(30, 30, 30),
-			InputBackgroundTransparency = 0.4,  -- Saydamlık eklenmiş input arka planı
 			InputStroke = Color3.fromRGB(65, 65, 65),
-			PlaceholderColor = Color3.fromRGB(178, 178, 178),
-		
-			-- Butonlar dışında her şeyde saydamlık efekti
-			ButtonBackground = Color3.fromRGB(50, 50, 50),  -- Butonların arka planı
-			ButtonStroke = Color3.fromRGB(85, 85, 85),
-			ButtonBackgroundTransparency = 1  -- Butonlar için saydamlık eklenmez (opak olur)
-		},		
+			PlaceholderColor = Color3.fromRGB(178, 178, 178)
+		},	
 
 		Ocean = {
 			TextColor = Color3.fromRGB(230, 240, 240),
