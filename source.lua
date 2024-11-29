@@ -276,7 +276,7 @@ local RayfieldLibrary = {
 		Bloom = {
 			TextColor = Color3.fromRGB(60, 40, 50),
 
-			Background = Color3.fromRGB(25, 25, 25),
+			Background = Color3.fromRGB(255, 240, 245),
 			Topbar = Color3.fromRGB(250, 220, 225),
 			Shadow = Color3.fromRGB(230, 190, 195),
 
