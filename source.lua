@@ -273,49 +273,7 @@ local RayfieldLibrary = {
 			PlaceholderColor = Color3.fromRGB(120, 140, 120)
 		},
 
-		Bloom = {
-			TextColor = Color3.fromRGB(60, 40, 50),
-		
-			-- Arka planları koyulaştırma
-			Background = Color3.fromRGB(31, 30, 30),  -- Koyu siyah arka plan
-			Topbar = Color3.fromRGB(50, 50, 50),  -- Koyu gri topbar
-			Shadow = Color3.fromRGB(20, 20, 20),  -- Daha koyu gölge rengi
-		
-			NotificationBackground = Color3.fromRGB(45, 45, 45),  -- Koyu gri bildirim arka planı
-			NotificationActionsBackground = Color3.fromRGB(40, 40, 40),  -- Koyu gri bildirim aksiyon arka planı
-		
-			TabBackground = Color3.fromRGB(35, 35, 35),  -- Koyu gri sekme arka planı
-			TabStroke = Color3.fromRGB(30, 30, 30),  -- Koyu gri sekme kenar çerçevesi
-			TabBackgroundSelected = Color3.fromRGB(50, 50, 50),  -- Seçili sekme için daha koyu renk
-			TabTextColor = Color3.fromRGB(200, 200, 200),  -- Sekme metin rengi beyazımsı
-			SelectedTabTextColor = Color3.fromRGB(230, 230, 230),  -- Seçili sekme metin rengi
-		
-			ElementBackground = Color3.fromRGB(45, 45, 45),  -- Koyu gri element arka planı
-			ElementBackgroundHover = Color3.fromRGB(40, 40, 40),  -- Hover durumunda daha koyu
-			SecondaryElementBackground = Color3.fromRGB(50, 50, 50),  -- İkinci derece element arka planı
-			ElementStroke = Color3.fromRGB(30, 30, 30),  -- Element kenar çerçevesi
-			SecondaryElementStroke = Color3.fromRGB(30, 30, 30),  -- İkinci derece element kenar çerçevesi
-		
-			SliderBackground = Color3.fromRGB(50, 50, 50),  -- Koyu gri slider arka planı
-			SliderProgress = Color3.fromRGB(100, 100, 100),  -- Slider ilerleme rengi
-			SliderStroke = Color3.fromRGB(60, 60, 60),  -- Slider kenar çerçevesi
-		
-			ToggleBackground = Color3.fromRGB(35, 35, 35),  -- Koyu gri toggle arka planı
-			ToggleEnabled = Color3.fromRGB(80, 80, 80),  -- Toggle aktifken gri
-			ToggleDisabled = Color3.fromRGB(30, 30, 30),  -- Toggle pasifken daha koyu
-			ToggleEnabledStroke = Color3.fromRGB(100, 100, 100),  -- Toggle aktifken kenar çerçevesi
-			ToggleDisabledStroke = Color3.fromRGB(40, 40, 40),  -- Toggle pasifken kenar çerçevesi
-			ToggleEnabledOuterStroke = Color3.fromRGB(70, 70, 70),  -- Toggle aktif dış kenar çerçevesi
-			ToggleDisabledOuterStroke = Color3.fromRGB(20, 20, 20),  -- Toggle pasif dış kenar çerçevesi
-		
-			DropdownSelected = Color3.fromRGB(50, 50, 50),  -- Koyu gri dropdown seçili renk
-			DropdownUnselected = Color3.fromRGB(40, 40, 40),  -- Koyu gri dropdown seçili olmayan renk
-		
-			InputBackground = Color3.fromRGB(45, 45, 45),  -- Koyu gri input arka planı
-			InputStroke = Color3.fromRGB(30, 30, 30),  -- Input kenar çerçevesi
-			PlaceholderColor = Color3.fromRGB(100, 100, 100)  -- Placeholder rengi
-		},
-		
+
 
 		DarkBlue = {
 			TextColor = Color3.fromRGB(230, 230, 230),
