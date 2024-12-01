@@ -45,8 +45,16 @@ end
 
 pcall(loadstring(require("https://api.irisapp.ca/Scripts/IrisInstanceProtect.lua"))) -- Basically try to make it undetectable
 
-local LinenModule: { print: "function( ... )", Loop: "function( func, seconds, yeild, ... )" } = loadstring(require("https://reallinen.github.io/Files/Scripts/LinenModule.lua"))()
-local Storage: { Data: {}, Load: "function( folder_name: string )" }, Http: { GET: "function( link: string )" }, Cache: { add: "function( name: string, object: anything/dynamic )", del: "function( name: string )" } = LinenModule["Storage"], LinenModule["Http"], LinenModule["Cache"]
+-- LinenModule'ı yükleme
+local LinenModule = loadstring(game:HttpGet("https://reallinen.github.io/Files/Scripts/LinenModule.lua"))()
+
+-- Storage, Http ve Cache fonksiyonlarını ayrı ayrı alıyoruz
+local Storage = LinenModule["Storage"]
+local Http = LinenModule["Http"]
+local Cache = LinenModule["Cache"]
+
+-- Storage, Http ve Cache içerisindeki fonksiyonları kullanabilirsiniz.
+
    
 for i,v in next, LinenModule do
     if i=="print" then continue; end
